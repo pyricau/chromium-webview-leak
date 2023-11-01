@@ -7,13 +7,13 @@
     android:orientation="vertical"
     >
 
-  <ProgressBar
-      android:id="@+id/web_progress_bar"
+  <Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:indeterminate="false"
-      style="@android:style/Widget.Material.ProgressBar.Horizontal"
+      android:id="@+id/recreate"
+      android:text="Recreate activity to leak webview"
       />
+
 
   <WebView
       android:id="@+id/webview"
