@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
 }
 ```
 
-When detaching the webview (which in this example happens when the activity is destroyed), a native reference to an object that references AwContents is preventing presenting the WebView instance from being garbage collected.
+When detaching the webview (which in this example happens when the activity is destroyed), a native reference to an object that references AwContents is preventing the WebView instance from being garbage collected.
 
 # Reproducing
 
