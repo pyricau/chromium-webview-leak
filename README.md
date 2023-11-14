@@ -2,6 +2,8 @@
 
 This repository contains a very simple app that reproduces a critical memory leak in Chromium Webview, which as of November 1st 2023 still reproducible when building webview from the latest Chromium master. 
 
+Issue filed here: https://bugs.chromium.org/p/chromium/issues/detail?id=1499154
+
 Here's a sample activity that reproduces the leak:
 
 ```kotlin
